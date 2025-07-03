@@ -6,7 +6,13 @@ int main()
 {
   srand(time(NULL));
   int diceCount = 2;
+  char player[12];
 
+  printf("What is your name?\n");
+
+  scanf("%s", player);
+
+  printf("Hello, %s\n", player);
   printf("Rolling dice...\n");
 
   int total = 0;
